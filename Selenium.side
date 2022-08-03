@@ -1,0 +1,90 @@
+{
+  "id": "1f72598e-8755-427c-93a4-862cab7aea11",
+  "version": "2.0",
+  "name": "Selenium",
+  "url": "https://cse.hcmut.edu.vn/",
+  "tests": [{
+    "id": "e6fc3654-c9a8-49dc-ba5b-5ed33b07450c",
+    "name": "Test Case 1",
+    "commands": [{
+      "id": "847cf845-3ba9-4773-84f9-1ee63698f717",
+      "comment": "",
+      "command": "open",
+      "target": "https://cse.hcmut.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef008c98-7402-4d0b-92cd-d44632a68d9d",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "CSE – Khoa Khoa học và Kỹ thuật Máy tính, Trường Đại học Bách Khoa, ĐHQG-HCM",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0066dc45-85f9-4a12-91f8-e25c29dad008",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#primary-menu > .menu-item-2900 .menu-text",
+      "targets": [
+        ["css=#primary-menu > .menu-item-2900 .menu-text", "css:finder"],
+        ["xpath=//ul[@id='primary-menu']/li[7]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span/span", "xpath:position"]
+      ],
+      "value": "Thực tập"
+    }, {
+      "id": "c1ef0da2-cac4-4cc6-a512-47ddf2135820",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#primary-menu > .menu-item-2348 .menu-text",
+      "targets": [
+        ["css=#primary-menu > .menu-item-2348 .menu-text", "css:finder"],
+        ["xpath=//ul[@id='primary-menu']/li[4]/a/span/span", "xpath:idRelative"],
+        ["xpath=//header/ul/li[4]/a/span/span", "xpath:position"]
+      ],
+      "value": "Nghiên cứu"
+    }, {
+      "id": "3ac62fd5-a6fd-43ed-a22b-d439eec52396",
+      "comment": "",
+      "command": "click",
+      "target": "css=#primary-menu > .menu-item-2348 .menu-text",
+      "targets": [
+        ["css=#primary-menu > .menu-item-2348 .menu-text", "css:finder"],
+        ["xpath=//ul[@id='primary-menu']/li[4]/a/span/span", "xpath:idRelative"],
+        ["xpath=//header/ul/li[4]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da89ed02-5371-42b6-b929-88353313fa98",
+      "comment": "",
+      "command": "click",
+      "target": "css=#primary-menu > .menu-item-2310 .menu-text",
+      "targets": [
+        ["css=#primary-menu > .menu-item-2310 .menu-text", "css:finder"],
+        ["xpath=//ul[@id='primary-menu']/li[6]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d571bedd-9ebb-4bd3-b4b3-19591cba5a4b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.mec-totalcal-monthlyview",
+      "targets": [
+        ["css=.mec-totalcal-monthlyview", "css:finder"],
+        ["xpath=//div[@id='mec_search_form_2267']/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"]
+      ],
+      "value": "HIỆN THỊ THEO THÁNG"
+    }]
+  }],
+  "suites": [{
+    "id": "0e422a96-0eef-4779-a6a7-a5863dd290e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e6fc3654-c9a8-49dc-ba5b-5ed33b07450c"]
+  }],
+  "urls": [],
+  "plugins": []
+}

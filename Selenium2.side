@@ -1,0 +1,186 @@
+{
+  "id": "ac554f11-19f4-478c-bd2c-4b8e7a52c048",
+  "version": "2.0",
+  "name": "Selenium2",
+  "url": "http://thongtindaotao.sgu.edu.vn/",
+  "tests": [{
+    "id": "2c5a42c8-d89b-41aa-87cb-ee6393a327a3",
+    "name": "Login Success",
+    "commands": [{
+      "id": "4c40ace6-0534-4d40-8038-070aac1d8ec5",
+      "comment": "",
+      "command": "open",
+      "target": "http://thongtindaotao.sgu.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72d672f0-df8d-4614-b355-a2fcbda4f798",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "912x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4076e362-9c15-4479-bc89-6448c9bf3ae3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ucDangNhap$txtTaiKhoa", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_vLogin']/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f07c03a-0219-40f5-a9b3-fdaa3ba32ccb",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ucDangNhap$txtTaiKhoa", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_vLogin']/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "3119411042"
+    }, {
+      "id": "1c0a078c-5efc-47ab-ae16-3409e68040b4",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ucDangNhap$txtMatKhau", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_vLogin']/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": "nghia0339941057"
+    }, {
+      "id": "c145fda4-49a9-4455-9af8-ef534da07a7e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ucDangNhap$txtMatKhau", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_vLogin']/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6eda36f7-f30b-43fc-b8bc-83e6e3ebb494",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=ctl00_Header1_Logout1_lblNguoiDung",
+      "targets": [
+        ["id=ctl00_Header1_Logout1_lblNguoiDung", "id"],
+        ["css=#ctl00_Header1_Logout1_lblNguoiDung", "css:finder"],
+        ["xpath=//span[@id='ctl00_Header1_Logout1_lblNguoiDung']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_Header1_Logout1_dLog']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chào bạn Nguyễn Hữu Nghĩa (3119411042)')]", "xpath:innerText"]
+      ],
+      "value": "Chào bạn Nguyễn Hữu Nghĩa (3119411042)"
+    }]
+  }, {
+    "id": "64e602b1-28c3-4905-8350-05e6cf7919e9",
+    "name": "Login Failed",
+    "commands": [{
+      "id": "69046252-1cca-4a14-a4fc-bdeff02b0f4c",
+      "comment": "",
+      "command": "open",
+      "target": "http://thongtindaotao.sgu.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dcb1f99-451f-41e4-9d47-77a2de4c72ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "912x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f728e1c1-3347-4900-b050-6665f26cee8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ucDangNhap$txtTaiKhoa", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_vLogin']/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6015f45-4228-4b9f-a644-3bc1dc0f3105",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ucDangNhap$txtTaiKhoa", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtTaiKhoa']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_vLogin']/table/tbody/tr/td[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "3119411042"
+    }, {
+      "id": "884bae32-df57-4129-9d3a-f669664ee27e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ucDangNhap$txtMatKhau", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_vLogin']/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": "nghaihdashd"
+    }, {
+      "id": "5c7106f6-a236-4e02-bd3c-acf79610f304",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ctl00$ucDangNhap$txtMatKhau", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_txtMatKhau']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_vLogin']/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input", "xpath:idRelative"],
+        ["xpath=//td[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8d33b128-f857-454d-815c-9447ff05f5df",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "id=ctl00_Header1_Logout1_lblNguoiDung",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1ab26571-0b22-4b40-a5b0-1d654ee77b56",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2c5a42c8-d89b-41aa-87cb-ee6393a327a3"]
+  }],
+  "urls": ["http://thongtindaotao.sgu.edu.vn/"],
+  "plugins": []
+}
