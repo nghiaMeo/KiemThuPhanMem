@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="9e71bc35-ef76-4a1e-ab7a-3e36fe3a2897" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.afb37bdd-8ce9-4e36-b485-d03d03a73514.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="30df5fbf-f1fc-4393-baf7-d579b0c34112" Version="1.1" Url="https://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="c6acc9b3-1c74-4aa9-a71c-5a08424be33c" Version="1.1" Url="https://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.zch" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; ?&gt;&lt;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.zch" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; ?&gt;&lt;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.zch" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; ?&gt;&lt;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.zch" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ing=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; ?&gt;&lt;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="th" RecordedValue="th" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="31" RecordedValue="31" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="248" RecordedValue="248" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS4A" RecordedValue="IESS4A" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_UE04" RecordedValue="EUPP_UE04" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="97d844ef-a0a4-4939-88a6-e341e407d3d4" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="3b42c3b9-1463-414c-8b74-88c14c0baaab" Version="1.1" Url="https://za.zalo.me/v3/w/t" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="zl" Value="http://thongtindaotao.sgu.edu.vn/" RecordedValue="http://thongtindaotao.sgu.edu.vn/" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zrf" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zch" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="{{FormPostParam1.zch}}" UrlEncode="True" />
+            <FormPostParameter Name="zts" Value="1649746954199" RecordedValue="1649746954199" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zos" Value="Windows" RecordedValue="Windows" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zla" Value="en-US," RecordedValue="en-US," CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__zi" Value="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" RecordedValue="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="v" Value="2201101603" RecordedValue="2201101603" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="incog" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zact" Value="pv" RecordedValue="pv" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zapp" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zidnbaid" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam15.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="19232439-501c-49a4-95c6-675241866855" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="77daef49-7823-4e02-a04c-28d019294125" Version="1.1" Url="https://za.zalo.me/v3/w/t" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="zl" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" RecordedValue="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zrf" Value="http://thongtindaotao.sgu.edu.vn/" RecordedValue="http://thongtindaotao.sgu.edu.vn/" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zch" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="{{FormPostParam2.zch}}" UrlEncode="True" />
+            <FormPostParameter Name="zts" Value="1649746957541" RecordedValue="1649746957541" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zos" Value="Windows" RecordedValue="Windows" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zla" Value="en-US," RecordedValue="en-US," CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__zi" Value="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" RecordedValue="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="v" Value="2201101603" RecordedValue="2201101603" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="incog" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zact" Value="pv" RecordedValue="pv" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zapp" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zidnbaid" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam14.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="3" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="gioithieu" RecordedValue="gioithieu" CorrelationBinding="{{QueryStringParam15.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="9ce7888d-0c3e-4455-834f-614f8e3d138a" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="16" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=ThoiKhoaBieu" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam12.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="4" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam13.flag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;flag=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="thoikhoabieu" RecordedValue="thoikhoabieu" CorrelationBinding="{{QueryStringParam14.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="93bb94c2-d709-46d4-aa38-bf707263d9c3" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=ThoiKhoaBieu" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam11.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="5" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="nhapmasv" RecordedValue="nhapmasv" CorrelationBinding="{{QueryStringParam12.page}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="flag" Value="XemLichThi" RecordedValue="XemLichThi" CorrelationBinding="{{QueryStringParam13.flag}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f240c0fd-4b4e-4fab-8466-6d90a793ee8a" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=XemHocPhi" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=nhapmasv&amp;flag=XemLichThi" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam10.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="6" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="xemhocphi" RecordedValue="xemhocphi" CorrelationBinding="{{QueryStringParam11.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c53b6556-4017-4d02-9639-839786a21923" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=XemDiemThi" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=XemHocPhi" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam9.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="7" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="xemdiemthi" RecordedValue="xemdiemthi" CorrelationBinding="{{QueryStringParam10.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="06228d8e-05a2-4c4f-aba4-ed39e7699e30" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=dangnhap" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=XemDiemThi" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam8.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam23.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="ykiensinhvien" RecordedValue="ykiensinhvien" CorrelationBinding="{{QueryStringParam9.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="dd8a0933-46d5-49ff-9a7b-fbf9ddc45c91" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=quenmatkhau" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="dangnhap" RecordedValue="dangnhap" CorrelationBinding="{{QueryStringParam8.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="ctl00$ContentPlaceHolder1$ctl00$lnkBtnQuenMK" RecordedValue="ctl00$ContentPlaceHolder1$ctl00$lnkBtnQuenMK" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="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" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="CA0B0334" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentPlaceHolder1$ctl00$txtTaiKhoa" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentPlaceHolder1$ctl00$txtMatKhau" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="1c37cef7-fe69-4d89-a045-e92f7234f802" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=quenmatkhau" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=dangnhap" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam24.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="2" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="dangnhap" RecordedValue="dangnhap" CorrelationBinding="{{QueryStringParam23.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="ctl00$ContentPlaceHolder1$ctl00$lnkBtnQuenMK" RecordedValue="ctl00$ContentPlaceHolder1$ctl00$lnkBtnQuenMK" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="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" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="CA0B0334" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentPlaceHolder1$ctl00$txtTaiKhoa" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentPlaceHolder1$ctl00$txtMatKhau" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="cd2e6857-41d4-47ee-a088-ebf31b3f5301" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="fa570b51-a114-4811-84eb-d64945ad547f" Version="1.1" Url="https://za.zalo.me/v3/w/t" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="zl" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" RecordedValue="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zrf" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=quenmatkhau" RecordedValue="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=quenmatkhau" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zch" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="{{FormPostParam3.zch}}" UrlEncode="True" />
+            <FormPostParameter Name="zts" Value="1649746996841" RecordedValue="1649746996841" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zos" Value="Windows" RecordedValue="Windows" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zla" Value="en-US," RecordedValue="en-US," CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__zi" Value="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" RecordedValue="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="v" Value="2201101603" RecordedValue="2201101603" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="incog" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zact" Value="pv" RecordedValue="pv" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zapp" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zidnbaid" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=quenmatkhau" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam6.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="9" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam7.id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;id=" />
+            <RuleParameter Name="EndsWith" Value="1" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="gioithieu" RecordedValue="gioithieu" CorrelationBinding="{{QueryStringParam24.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="a1fa76d7-109b-49bb-953a-27a3e610af81" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/default.aspx" ThinkTime="11" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="2" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="chitietthongtin" RecordedValue="chitietthongtin" CorrelationBinding="{{QueryStringParam6.page}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam7.id}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="087fd379-ebe5-4910-a0ff-27f9ba481253" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="a856c635-a37f-49b0-820e-e379af10af21" Version="1.1" Url="https://za.zalo.me/v3/w/t" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="zl" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" RecordedValue="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zrf" Value="http://thongtindaotao.sgu.edu.vn/default.aspx?page=chitietthongtin&amp;id=1" RecordedValue="http://thongtindaotao.sgu.edu.vn/default.aspx?page=chitietthongtin&amp;id=1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zch" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="{{FormPostParam4.zch}}" UrlEncode="True" />
+            <FormPostParameter Name="zts" Value="1649747018741" RecordedValue="1649747018741" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zos" Value="Windows" RecordedValue="Windows" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zla" Value="en-US," RecordedValue="en-US," CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__zi" Value="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" RecordedValue="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="v" Value="2201101603" RecordedValue="2201101603" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="incog" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zact" Value="pv" RecordedValue="pv" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zapp" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zidnbaid" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/default.aspx?page=chitietthongtin&amp;id=1" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="21" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4.id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;id=" />
+            <RuleParameter Name="EndsWith" Value="'" />
+            <RuleParameter Name="Index" Value="11" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="gioithieu" RecordedValue="gioithieu" CorrelationBinding="{{QueryStringParam5.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1c5f68e0-2e7f-4141-9ead-89e764cb3546" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/default.aspx" ThinkTime="11" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;id=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam25.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam26.id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;id=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="chitietthongtin" RecordedValue="chitietthongtin" CorrelationBinding="{{QueryStringParam3.page}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam4.id}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f2c1a4b3-17cb-45a2-b03d-351d023f9ae1" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/default.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/default.aspx?page=dangnhap" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="chitietthongtin" RecordedValue="chitietthongtin" CorrelationBinding="{{QueryStringParam1.page}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam2.id}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="ctl00$Header1$Logout1$lbtnLogOut" RecordedValue="ctl00$Header1$Logout1$lbtnLogOut" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="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eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7xJDGsOG7o2MgeMOpdCB04buRdCBuZ2hp4buHcCDEkcO6bmcgdGnhur9uIMSR4buZIHbDoG8gxJDhu6N0IDIsIE7Eg20gMjAxOSAoMjgvMDYvMjAxOSk8L3NwYW4+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzdHJvbmcgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPisgS2jDs2EgMTggKGPDoWMgbOG7m3AgRFNBNDE4MSwgREdUNDE4MSwgREdNNDE4MSk8L3N0cm9uZz48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDvEkMaw4bujYyB4w6l0IHThu5F0IG5naGnhu4dwIMSRw7puZyB0aeG6v24gxJHhu5kgdsOgbyDEkOG7o3QgNCwgTsSDbSAyMDE5ICgxMC8wOS8yMDE5KTwvc3Bhbj48YnIgLz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4tIEjhu4YgTEnDik4gVEjDlE5HIC0gSMOMTkggVEjhu6hDIFbhu6pBIEzDgE0gVuG7qkEgSOG7jEM8YnIgLz48L3N0cm9uZz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4rIEtow7NhIDE3IChjw6FjIGzhu5twIERHVCwgREdNLCBEVE8sIERMSSwgREhPLCBEU0ksIERWQSwgRERJLCBEU0EsIERHRCwgRE1JMzE3eCk8L3N0cm9uZz48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDvEkMaw4bujYyB4w6l0IHThu5F0IG5naGnhu4dwIMSRw7puZyB0aeG6v24gxJHhu5kgdsOgbyDEkOG7o3QgMSwgTsSDbSAyMDE5ICgyNi8wMi8yMDE5KSZuYnNwOzwvc3Bhbj48ZW0gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPjxiciAvPjwvZW0+PHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+KyBLaMOzYSAxNyAoQ2FvIMSR4bqzbmcgbGnDqm4gdGjDtG5nLCBs4bubcCBDR00zMTcxKTwvc3Ryb25nPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO8SQxrDhu6NjIHjDqXQgdOG7kXQgbmdoaeG7h3AgdsOgbyDEkOG7o3QgMywgTsSDbSAyMDE5ICgxNi8wNy8yMDE5KTwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+KyBLaMOzYSAxOCAoY8OhYyBs4bubcCBEU0EzMTgxLCBER1QzMTgxLCBER00zMTgxLCBER00zMTgyKTwvc3Ryb25nPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO0jhu41jIGvDrCB0aOG7qSAxIGPhu6dhIGtow7NhIMSRw6BvIHThuqFvICh04burIDE1LzEwLzIwMTgpIC0mbmJzcDtDw7Mga+G6v3QgcXXhuqMgaOG7jWMgdOG6rXAgdOG7qyAxNC8wNS8yMDE5PC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO0jhu41jIGvDrCB0aOG7qSAyIGPhu6dhIGtow7NhIMSRw6BvIHThuqFvICh04burIDI1LzAzLzIwMTkpJm5ic3A7PC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO0jhu41jIGvDrCB0aOG7qSAzIGPhu6dhIGtow7NhIMSRw6BvIHThuqFvICh04burIDI2LzA4LzIwMTkpIC0mbmJzcDvEkMOjIGPDsyBr4bq/dCBxdeG6oyBo4buNYyB04bqtcCBo4buNYyBrw6w8L3NwYW4+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7PC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij5Yw6l0IHThu5F0IG5naGnhu4dwIMSRw7puZyB0aeG6v24gxJHhu5kmbmJzcDs8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPnbDoG8gxJDhu6N0IDEsIE7Eg20gMjAyMCAoMjUvMDIvMjAyMCkuPC9zcGFuPjxlbSBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyBjb2xvcjogI2ZmMDAwMDsiPjxiciAvPjwvZW0+PHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyBjb2xvcjogI2ZmMDAwMDsiPisgS2jDs2EgMTkgKGPDoWMgbOG7m3AgRFNBMzE5MSwgREdUMzE5MSwgREdUMzE5Mik8L3N0cm9uZz48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDsgSOG7jWMga8OsIHRo4bupIDEgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKHThu6sgMDQvMTEvMjAxOSk8YnIgLz4mbmJzcDsgJm5ic3A7IEPDoWMgaOG7jWMgcGjhuqduIGPhu6dhIEhLIHRo4bupIDEgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gc+G6vSDEkcaw4bujYyB04buVIGNo4bupYyB0aGkgY8O5bmcgduG7m2kgSEsgdGjhu6kgMiBj4bunYSBraMOzYSDEkcOgbyB04bqhby48YnIgLz48L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDsgSOG7jWMga8OsIHRo4bupIDIgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKOG7qW5nIHbhu5tpIEhLMiwgMjAxOSAtIDIwMjApPGJyIC8+PC9zcGFuPjxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5OiBUYWhvbWE7IGZvbnQtc2l6ZTogMTZweDsiPiZuYnNwOyAmbmJzcDsmbmJzcDs8L3N0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxNnB4OyBmb250LWZhbWlseTogVGFob21hOyI+WMOpdCB04buRdCBuZ2hp4buHcCDEkcO6bmcgdGnhur9uIMSR4buZIHbDoG8gxJDhu6N0IDEsIG7Eg20gMjAyMSAodsOgbyBuZ8OgeSAwMi8wMy8yMDIxKTwvc3Bhbj48YnIgLz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4tIEjhu4YgxJDhuqBJIEjhu4xDIELhurBORyBUSOG7qCAyIC0gSMOMTkggVEjhu6hDIENIw41OSCBRVVk8YnIgLz48L3N0cm9uZz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4rIEtow7NhIDE2IChs4bubcCBEQU41MTYxKTwvc3Ryb25nPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO0jhu41jIGvDrCB0aOG7qSA0IGPhu6dhIGtow7NhIMSRw6BvIHThuqFvICh04burIDIzLzA3LzIwMTgpIChISyBjdeG7kWkpJm5ic3A7PC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO8SQxrDhu6NjIHjDqXQgdOG7kXQgbmdoaeG7h3AgxJHDum5nIHRp4bq/biDEkeG7mSB2w6BvIMSQ4bujdCAxLCBOxINtIDIwMTksIG5nw6B5IDI2LzAyLzIwMTkpPC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IGNvbG9yOiAjZmYwMDAwOyI+KyBLaMOzYSAxNyAobOG7m3AgREFONTE3MSApPGJyIC8+PC9zdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDtI4buNYyBrw6wgdGjhu6kgMyBj4bunYSBraMOzYSDEkcOgbyB04bqhbyAodOG7qyAyOS8xMC8yMDE4KTwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDtI4buNYyBrw6wgdGjhu6kgNCBj4bunYSBraMOzYSDEkcOgbyB04bqhbyAodOG7qyAxNS8wNy8yMDE5KSAtJm5ic3A7xJDDoyBjw7Mga+G6v3QgcXXhuqMgaOG7jWMgdOG6rXAgaOG7jWMga8OsPC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwOzwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+WMOpdCB04buRdCBuZ2hp4buHcCDEkcO6bmcgdGnhur9uIMSR4buZPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDt2w6BvIMSQ4bujdCAxLCBOxINtIDIwMjAgKDI1LzAyLzIwMjApLiBTViB0aGVvIGTDtWkga+G6v3QgcXXhuqMgeMOpdCAoc+G6vSBjaHV54buDbiBr4bq/dCBxdeG6oyBk4buxIGtp4bq/biBjaG8ga2hvYS8gbmfDoG5oIHNhdSBuZ8OgeSBo4buNcCB4w6l0KTwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyBjb2xvcjogI2ZmMDAwMDsiPisgS2jDs2EgMTggKGzhu5twIERBTjUxODEpPC9zdHJvbmc+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7SOG7jWMga8OsIHRo4bupIDIgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKHThu6sgMjcvMDUvMjAxOSk8L3NwYW4+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7SOG7jWMga8OsIHRo4bupIDMgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKHThu6sgMTIvMDcvMjAxOSkmbmJzcDvEkMOjIGPDsyBr4bq/dCBxdeG6oyBo4buNYyB04bqtcCBo4buNYyBrw6w8L3NwYW4+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7SOG7jWMga8OsIHRo4bupIDQgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKOG7qW5nIHbhu5tpIEhLMiwgMjAyMTkgLSAyMDIwKSAmbmJzcDsoYuG6r3QgxJHhuqd1IHThu6sgMjcvMDQvMjAyMCk8YnIgLz48L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDtYw6l0IHThu5F0IG5naGnhu4dwIMSRw7puZyB0aeG6v24gxJHhu5kgdsOgbyDEkOG7o3QgMSwgbsSDbSAyMDIxICh2w6BvIG5nw6B5IDAyLzAzLzIwMjEpPC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IGNvbG9yOiAjZmYwMDAwOyI+KyBLaMOzYSAyMCAobOG7m3AgREFONTIwMSkmbmJzcDs8L3N0cm9uZz48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDvEkGFuZyBsw6BtIHRo4bunIHThu6VjIG5o4bqtcCBo4buNYy4mbmJzcDsmbmJzcDtL4bq/dCB0aMO6YyB0aOG7nWkgZ2lhbiBuaOG6rXAgaOG7jWMgKDA2LzAzLzIwMjApPC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyBjb2xvcjogI2ZmMDAwMDsiPiZuYnNwOyAmbmJzcDtI4buNYyBrw6wgdGjhu6kgMSBj4bunYSBraMOzYSDEkcOgbyB04bqhbyAodOG7qyAwNi8wNC8yMDIwKTwvc3Bhbj5kZAIJD2QWCAIBDw8WAh8CBXlDb3B5cmlnaHQgwqkyMDA5IFRyxrDhu51uZyDEkEggU8OgaSBHw7JuLcSQ4bqhaSBo4buNYyBjaMOtbmggcXV5LiBRdeG6o24gbMO9IGLhu59pIOG7pnkgYmFuIG5ow6JuIGTDom4gVFAuIEjhu5MgQ2jDrSBNaW5oZGQCAw8PFgIfAgULVHJhbmcgQ2jhu6dkZAIFDw8WAh8CBS1UaGnhur90IGvhur8gYuG7n2kgY3R5IFBo4bqnbiBt4buBbSBBbmggUXXDom5kZAIHDw8WAh8CBQzEkOG6p3UgVHJhbmdkZGRDZZktZ9zWO5dcIcuxWyJiNX1NEw==" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="CA0B0334" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="638cdef4-356d-42c9-a969-c63c7a737b7e" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/default.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/default.aspx?page=dangnhap" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/default.aspx?page=chitietthongtin&amp;id=2" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="chitietthongtin" RecordedValue="chitietthongtin" CorrelationBinding="{{QueryStringParam25.page}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="2" RecordedValue="2" CorrelationBinding="{{QueryStringParam26.id}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="ctl00$Header1$Logout1$lbtnLogOut" RecordedValue="ctl00$Header1$Logout1$lbtnLogOut" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="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eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7xJDGsOG7o2MgeMOpdCB04buRdCBuZ2hp4buHcCDEkcO6bmcgdGnhur9uIMSR4buZIHbDoG8gxJDhu6N0IDIsIE7Eg20gMjAxOSAoMjgvMDYvMjAxOSk8L3NwYW4+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzdHJvbmcgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPisgS2jDs2EgMTggKGPDoWMgbOG7m3AgRFNBNDE4MSwgREdUNDE4MSwgREdNNDE4MSk8L3N0cm9uZz48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDvEkMaw4bujYyB4w6l0IHThu5F0IG5naGnhu4dwIMSRw7puZyB0aeG6v24gxJHhu5kgdsOgbyDEkOG7o3QgNCwgTsSDbSAyMDE5ICgxMC8wOS8yMDE5KTwvc3Bhbj48YnIgLz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4tIEjhu4YgTEnDik4gVEjDlE5HIC0gSMOMTkggVEjhu6hDIFbhu6pBIEzDgE0gVuG7qkEgSOG7jEM8YnIgLz48L3N0cm9uZz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4rIEtow7NhIDE3IChjw6FjIGzhu5twIERHVCwgREdNLCBEVE8sIERMSSwgREhPLCBEU0ksIERWQSwgRERJLCBEU0EsIERHRCwgRE1JMzE3eCk8L3N0cm9uZz48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDvEkMaw4bujYyB4w6l0IHThu5F0IG5naGnhu4dwIMSRw7puZyB0aeG6v24gxJHhu5kgdsOgbyDEkOG7o3QgMSwgTsSDbSAyMDE5ICgyNi8wMi8yMDE5KSZuYnNwOzwvc3Bhbj48ZW0gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPjxiciAvPjwvZW0+PHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+KyBLaMOzYSAxNyAoQ2FvIMSR4bqzbmcgbGnDqm4gdGjDtG5nLCBs4bubcCBDR00zMTcxKTwvc3Ryb25nPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO8SQxrDhu6NjIHjDqXQgdOG7kXQgbmdoaeG7h3AgdsOgbyDEkOG7o3QgMywgTsSDbSAyMDE5ICgxNi8wNy8yMDE5KTwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+KyBLaMOzYSAxOCAoY8OhYyBs4bubcCBEU0EzMTgxLCBER1QzMTgxLCBER00zMTgxLCBER00zMTgyKTwvc3Ryb25nPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO0jhu41jIGvDrCB0aOG7qSAxIGPhu6dhIGtow7NhIMSRw6BvIHThuqFvICh04burIDE1LzEwLzIwMTgpIC0mbmJzcDtDw7Mga+G6v3QgcXXhuqMgaOG7jWMgdOG6rXAgdOG7qyAxNC8wNS8yMDE5PC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO0jhu41jIGvDrCB0aOG7qSAyIGPhu6dhIGtow7NhIMSRw6BvIHThuqFvICh04burIDI1LzAzLzIwMTkpJm5ic3A7PC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO0jhu41jIGvDrCB0aOG7qSAzIGPhu6dhIGtow7NhIMSRw6BvIHThuqFvICh04burIDI2LzA4LzIwMTkpIC0mbmJzcDvEkMOjIGPDsyBr4bq/dCBxdeG6oyBo4buNYyB04bqtcCBo4buNYyBrw6w8L3NwYW4+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7PC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij5Yw6l0IHThu5F0IG5naGnhu4dwIMSRw7puZyB0aeG6v24gxJHhu5kmbmJzcDs8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPnbDoG8gxJDhu6N0IDEsIE7Eg20gMjAyMCAoMjUvMDIvMjAyMCkuPC9zcGFuPjxlbSBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyBjb2xvcjogI2ZmMDAwMDsiPjxiciAvPjwvZW0+PHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyBjb2xvcjogI2ZmMDAwMDsiPisgS2jDs2EgMTkgKGPDoWMgbOG7m3AgRFNBMzE5MSwgREdUMzE5MSwgREdUMzE5Mik8L3N0cm9uZz48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDsgSOG7jWMga8OsIHRo4bupIDEgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKHThu6sgMDQvMTEvMjAxOSk8YnIgLz4mbmJzcDsgJm5ic3A7IEPDoWMgaOG7jWMgcGjhuqduIGPhu6dhIEhLIHRo4bupIDEgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gc+G6vSDEkcaw4bujYyB04buVIGNo4bupYyB0aGkgY8O5bmcgduG7m2kgSEsgdGjhu6kgMiBj4bunYSBraMOzYSDEkcOgbyB04bqhby48YnIgLz48L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDsgSOG7jWMga8OsIHRo4bupIDIgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKOG7qW5nIHbhu5tpIEhLMiwgMjAxOSAtIDIwMjApPGJyIC8+PC9zcGFuPjxzdHJvbmcgc3R5bGU9ImZvbnQtZmFtaWx5OiBUYWhvbWE7IGZvbnQtc2l6ZTogMTZweDsiPiZuYnNwOyAmbmJzcDsmbmJzcDs8L3N0cm9uZz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxNnB4OyBmb250LWZhbWlseTogVGFob21hOyI+WMOpdCB04buRdCBuZ2hp4buHcCDEkcO6bmcgdGnhur9uIMSR4buZIHbDoG8gxJDhu6N0IDEsIG7Eg20gMjAyMSAodsOgbyBuZ8OgeSAwMi8wMy8yMDIxKTwvc3Bhbj48YnIgLz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4tIEjhu4YgxJDhuqBJIEjhu4xDIELhurBORyBUSOG7qCAyIC0gSMOMTkggVEjhu6hDIENIw41OSCBRVVk8YnIgLz48L3N0cm9uZz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4rIEtow7NhIDE2IChs4bubcCBEQU41MTYxKTwvc3Ryb25nPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO0jhu41jIGvDrCB0aOG7qSA0IGPhu6dhIGtow7NhIMSRw6BvIHThuqFvICh04burIDIzLzA3LzIwMTgpIChISyBjdeG7kWkpJm5ic3A7PC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwO8SQxrDhu6NjIHjDqXQgdOG7kXQgbmdoaeG7h3AgxJHDum5nIHRp4bq/biDEkeG7mSB2w6BvIMSQ4bujdCAxLCBOxINtIDIwMTksIG5nw6B5IDI2LzAyLzIwMTkpPC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IGNvbG9yOiAjZmYwMDAwOyI+KyBLaMOzYSAxNyAobOG7m3AgREFONTE3MSApPGJyIC8+PC9zdHJvbmc+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDtI4buNYyBrw6wgdGjhu6kgMyBj4bunYSBraMOzYSDEkcOgbyB04bqhbyAodOG7qyAyOS8xMC8yMDE4KTwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDtI4buNYyBrw6wgdGjhu6kgNCBj4bunYSBraMOzYSDEkcOgbyB04bqhbyAodOG7qyAxNS8wNy8yMDE5KSAtJm5ic3A7xJDDoyBjw7Mga+G6v3QgcXXhuqMgaOG7jWMgdOG6rXAgaOG7jWMga8OsPC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+Jm5ic3A7ICZuYnNwOzwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyI+WMOpdCB04buRdCBuZ2hp4buHcCDEkcO6bmcgdGnhur9uIMSR4buZPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDt2w6BvIMSQ4bujdCAxLCBOxINtIDIwMjAgKDI1LzAyLzIwMjApLiBTViB0aGVvIGTDtWkga+G6v3QgcXXhuqMgeMOpdCAoc+G6vSBjaHV54buDbiBr4bq/dCBxdeG6oyBk4buxIGtp4bq/biBjaG8ga2hvYS8gbmfDoG5oIHNhdSBuZ8OgeSBo4buNcCB4w6l0KTwvc3Bhbj48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyBjb2xvcjogI2ZmMDAwMDsiPisgS2jDs2EgMTggKGzhu5twIERBTjUxODEpPC9zdHJvbmc+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7SOG7jWMga8OsIHRo4bupIDIgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKHThu6sgMjcvMDUvMjAxOSk8L3NwYW4+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7SOG7jWMga8OsIHRo4bupIDMgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKHThu6sgMTIvMDcvMjAxOSkmbmJzcDvEkMOjIGPDsyBr4bq/dCBxdeG6oyBo4buNYyB04bqtcCBo4buNYyBrw6w8L3NwYW4+PGJyIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IiAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7Ij4mbmJzcDsgJm5ic3A7SOG7jWMga8OsIHRo4bupIDQgY+G7p2Ega2jDs2EgxJHDoG8gdOG6oW8gKOG7qW5nIHbhu5tpIEhLMiwgMjAyMTkgLSAyMDIwKSAmbmJzcDsoYuG6r3QgxJHhuqd1IHThu6sgMjcvMDQvMjAyMCk8YnIgLz48L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDtYw6l0IHThu5F0IG5naGnhu4dwIMSRw7puZyB0aeG6v24gxJHhu5kgdsOgbyDEkOG7o3QgMSwgbsSDbSAyMDIxICh2w6BvIG5nw6B5IDAyLzAzLzIwMjEpPC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3Ryb25nIHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGZvbnQtZmFtaWx5OiBUYWhvbWE7IGNvbG9yOiAjZmYwMDAwOyI+KyBLaMOzYSAyMCAobOG7m3AgREFONTIwMSkmbmJzcDs8L3N0cm9uZz48YnIgc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiIC8+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsgZm9udC1mYW1pbHk6IFRhaG9tYTsiPiZuYnNwOyAmbmJzcDvEkGFuZyBsw6BtIHRo4bunIHThu6VjIG5o4bqtcCBo4buNYy4mbmJzcDsmbmJzcDtL4bq/dCB0aMO6YyB0aOG7nWkgZ2lhbiBuaOG6rXAgaOG7jWMgKDA2LzAzLzIwMjApPC9zcGFuPjxiciBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyBmb250LWZhbWlseTogVGFob21hOyBjb2xvcjogI2ZmMDAwMDsiPiZuYnNwOyAmbmJzcDtI4buNYyBrw6wgdGjhu6kgMSBj4bunYSBraMOzYSDEkcOgbyB04bqhbyAodOG7qyAwNi8wNC8yMDIwKTwvc3Bhbj5kZAIJD2QWCAIBDw8WAh8CBXlDb3B5cmlnaHQgwqkyMDA5IFRyxrDhu51uZyDEkEggU8OgaSBHw7JuLcSQ4bqhaSBo4buNYyBjaMOtbmggcXV5LiBRdeG6o24gbMO9IGLhu59pIOG7pnkgYmFuIG5ow6JuIGTDom4gVFAuIEjhu5MgQ2jDrSBNaW5oZGQCAw8PFgIfAgULVHJhbmcgQ2jhu6dkZAIFDw8WAh8CBS1UaGnhur90IGvhur8gYuG7n2kgY3R5IFBo4bqnbiBt4buBbSBBbmggUXXDom5kZAIHDw8WAh8CBQzEkOG6p3UgVHJhbmdkZGRDZZktZ9zWO5dcIcuxWyJiNX1NEw==" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="CA0B0334" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

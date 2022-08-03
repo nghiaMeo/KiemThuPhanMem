@@ -1,0 +1,7 @@
+C:\Users\Nghia\source\repos\CodedUITestProject1\CodedUITestProject3\bin\Debug\CodedUITestProject3.dll
+C:\Users\Nghia\source\repos\CodedUITestProject1\CodedUITestProject3\bin\Debug\CodedUITestProject3.pdb
+C:\Users\Nghia\source\repos\CodedUITestProject1\CodedUITestProject3\obj\Debug\CodedUITestProject3.csprojAssemblyReference.cache
+C:\Users\Nghia\source\repos\CodedUITestProject1\CodedUITestProject3\obj\Debug\CodedUITestProject3.csproj.CoreCompileInputs.cache
+C:\Users\Nghia\source\repos\CodedUITestProject1\CodedUITestProject3\obj\Debug\CodedUITestProject3.dll
+C:\Users\Nghia\source\repos\CodedUITestProject1\CodedUITestProject3\obj\Debug\CodedUITestProject3.pdb
+C:\Users\Nghia\source\repos\CodedUITestProject1\CodedUITestProject3\bin\Debug\data.csv

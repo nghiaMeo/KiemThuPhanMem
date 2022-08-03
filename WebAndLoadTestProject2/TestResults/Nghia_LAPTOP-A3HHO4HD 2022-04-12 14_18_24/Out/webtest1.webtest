@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="3c3987e9-aa86-453a-aa35-67ff8787cc26" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.b450ff13-f183-4cd8-bf66-1bfc25809a38.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="193f5c3d-eaba-4830-a6c6-bda9240aefc5" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="8ad1334e-84c8-445e-9cd2-3f064834d71e" Version="1.1" Url="https://za.zalo.me/v3/w/t" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="zl" Value="http://thongtindaotao.sgu.edu.vn/" RecordedValue="http://thongtindaotao.sgu.edu.vn/" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="zrf" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="zch" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="zts" Value="1649747146790" RecordedValue="1649747146790" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="zos" Value="Windows" RecordedValue="Windows" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="zla" Value="en-US," RecordedValue="en-US," CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__zi" Value="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" RecordedValue="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="v" Value="2201101603" RecordedValue="2201101603" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="incog" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="zact" Value="pv" RecordedValue="pv" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="_zapp" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="_zidnbaid" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="c1e7a26e-e6d5-47db-b90b-8b21028b676b" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="d49c5872-d3e3-4688-8c9b-e34d3c807389" Version="1.1" Url="https://za.zalo.me/v3/w/t" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="zl" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" RecordedValue="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zrf" Value="http://thongtindaotao.sgu.edu.vn/" RecordedValue="http://thongtindaotao.sgu.edu.vn/" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zch" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zts" Value="1649747152319" RecordedValue="1649747152319" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zos" Value="Windows" RecordedValue="Windows" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zla" Value="en-US," RecordedValue="en-US," CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="__zi" Value="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" RecordedValue="2000.SSZzejyD2za-nEkXtmqOqsd6lx-H0m2HDTIreOD14eSds-kgYmHSZYVMxAU00XMA8j6feO8258uXrAcW.1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="v" Value="2201101603" RecordedValue="2201101603" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="incog" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="zact" Value="pv" RecordedValue="pv" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zapp" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="_zidnbaid" Value="null" RecordedValue="null" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="3" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="gioithieu" RecordedValue="gioithieu" CorrelationBinding="{{QueryStringParam4.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b9cb9840-1f92-4782-9639-8461af231021" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="7" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=ThoiKhoaBieu" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=gioithieu" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="5" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="thoikhoabieu" RecordedValue="thoikhoabieu" CorrelationBinding="{{QueryStringParam3.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="52d61d3c-d3ed-4908-aea5-626cf00fe3bc" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="29" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=XemHocPhi" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=ThoiKhoaBieu" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="xemhocphi" RecordedValue="xemhocphi" CorrelationBinding="{{QueryStringParam2.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="cbad0bdc-27a6-4c5b-b439-10acea2dffc6" Version="1.1" Url="https://aqtech.vn/" ThinkTime="43" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="14e27a79-4827-4c7d-8a1e-d4380c5c98b1" Version="1.1" Url="http://thongtindaotao.sgu.edu.vn/Default.aspx" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/default.aspx?page=nhapmasv&amp;flag=XemHocPhi" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="page" Value="thongtinsp" RecordedValue="thongtinsp" CorrelationBinding="{{QueryStringParam1.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="67594973-ef44-4139-908d-de1acc202579" Version="1.1" Url="http://edusoft.net.vn/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://thongtindaotao.sgu.edu.vn/Default.aspx?page=thongtinsp" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

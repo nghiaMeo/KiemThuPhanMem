@@ -1,0 +1,11 @@
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\WebTest1.webtest
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\WebAndLoadTestProject1.dll
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\WebAndLoadTestProject1.pdb
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.csprojAssemblyReference.cache
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.csproj.CopyComplete
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.dll
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\obj\Debug\WebAndLoadTestProject1.pdb
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\LoadTest1.loadtest
+C:\Users\Nghia\source\repos\WebAndLoadTestProject1\WebAndLoadTestProject1\bin\Debug\LoadTest2.loadtest

@@ -1,0 +1,7 @@
+C:\Users\Nghia\source\repos\TestProgram\TestProgram\bin\Debug\TestProgram.exe.config
+C:\Users\Nghia\source\repos\TestProgram\TestProgram\bin\Debug\TestProgram.exe
+C:\Users\Nghia\source\repos\TestProgram\TestProgram\bin\Debug\TestProgram.pdb
+C:\Users\Nghia\source\repos\TestProgram\TestProgram\obj\Debug\TestProgram.csprojAssemblyReference.cache
+C:\Users\Nghia\source\repos\TestProgram\TestProgram\obj\Debug\TestProgram.csproj.CoreCompileInputs.cache
+C:\Users\Nghia\source\repos\TestProgram\TestProgram\obj\Debug\TestProgram.exe
+C:\Users\Nghia\source\repos\TestProgram\TestProgram\obj\Debug\TestProgram.pdb
